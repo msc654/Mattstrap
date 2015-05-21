@@ -1,0 +1,141 @@
+<article id="forms">
+    <header class="page-header">
+        <h1>Forms</h1>
+    </header>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Can't touch this" disabled>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="tarea">Textarea</label>
+            <textarea class="form-control" name="tarea" id="tarea" cols="30" rows="10" placeholder="Comments are welcome"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Example block-level help text here.</p>
+        </div>
+
+        <div class="form-group">
+            <h3 class="h4">Standard checkboxes</h3>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Check me out
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="">
+                    Option one is this and that&mdash;be sure to include why it's great
+                </label>
+            </div>
+            <div class="checkbox disabled">
+                <label>
+                    <input type="checkbox" value="" disabled>
+                    Option two is disabled
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <h3 class="h4">Standard radio buttons</h3>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Option one is this and that&mdash;be sure to include why it's great
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Option two can be something else and selecting it will deselect option one
+                </label>
+            </div>
+            <div class="radio disabled">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                    Option three is disabled
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <h3 class="h4">Inline checkboxes</h3>
+            <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+            </label>
+        </div>
+
+        <div class="form-group">
+            <h3 class="h4">Inline radio buttons</h3>
+            <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label for="select">Select</label>
+            <select id="select" class="form-control">
+                <option>brunch</option>
+                <option>try-hard</option>
+                <option>trust</option>
+                <option>fund</option>
+                <option>biodiesel</option>
+                <option>gastropub</option>
+                <option>single-origin</option>
+                <option>coffee</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <h3 class="h4">Multi-select</h3>
+            <select multiple class="form-control">
+                <option>brunch</option>
+                <option>try-hard</option>
+                <option>trust</option>
+                <option>fund</option>
+                <option>biodiesel</option>
+                <option>gastropub</option>
+                <option>single-origin</option>
+                <option>coffee</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <h2>Inline forms</h2>
+    <form class="form-inline">
+        <div class="form-group">
+            <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+            <div class="input-group">
+                <div class="input-group-addon">$</div>
+                <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                <div class="input-group-addon">.00</div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Transfer cash</button>
+    </form>
+</article>
